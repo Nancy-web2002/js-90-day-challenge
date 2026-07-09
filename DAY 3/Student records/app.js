@@ -1,4 +1,4 @@
-
+let table = document.getElementById("students");
 let students = [
     { name: "Ada", score: 85, grade: gradeCalculator(85) },
     {name:"Nancy", score: 95, grade: gradeCalculator(95) },
@@ -39,3 +39,10 @@ for (let i = 0; i < students.length; i++) {
     }
   }
   console.log(passCount)
+  
+  for (let i = 0; i < students.length; i++) {
+    let row = document.createElement("tr");
+row.innerHTML = "<td>" + students[i].name + "</td><td>" + students[i].score + "</td><td>" + students[i].grade + "</td>";
+table.appendChild(row);
+  }
+  console.log(table)
