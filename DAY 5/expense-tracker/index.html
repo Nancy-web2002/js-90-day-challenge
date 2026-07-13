@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Expense Tracker</title>
+</head>
+<body>
+    <h1>Expense Tracker</h1>
+    <label for="description">Description</label>
+    <textarea id="description" name="description" rows="2" placeholder="abc" ></textarea>
+    <br>
+    <label for="amount">Amount</label>
+    <input id="amount" name="name" type="number" placeholder="123"  >
+    <br>
+   <select id="category">
+    <option>Food</option>
+    <option>Bills</option>
+    <option>Transportation</option>
+    <option>Others</option>
+   </select>
+    <button id="addBtn">Add Expense</button>
+    <table id="expenseTable">
+        <thead>
+          <tr>
+            <th>Description</th>
+            <th>Amount</th>
+            <th>Category</th>
+          </tr>
+        </thead>
+        <tbody id="expenseBody"></tbody>
+      </table>
+    <p id="total">Total Spent</p>
+
+    <script src="app.js"></script>
+</body>
+</html>

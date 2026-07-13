@@ -1,5 +1,8 @@
-let students = [
-  { name: "Ada", score: 85 },
-  { name: "Tunde", score: 62 }
-];
-console.log(students[0].score)
+let tasks = ["Buy milk", "Walk dog"];
+let tasksAsText = JSON.stringify(tasks);
+console.log(tasksAsText);
+
+let tasksBack = JSON.parse(tasksAsText);
+console.log(tasksBack);
+console.log(typeof tasksBack);
+console.log(tasksBack[0]);
