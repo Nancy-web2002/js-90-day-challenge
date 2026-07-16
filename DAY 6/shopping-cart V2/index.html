@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping Cart V2</title>
+</head>
+<body>
+    <h1>Shopping Cart V2</h1>
+    <label for="item">Item</label>
+    <input id="item" name="item" type="text">
+
+    <br>
+    <label for="price">Price</label>
+    <input id="price" name="price" type="number" >
+    <br>
+
+    <label for="quantity">Quantity</label>
+    <input id="quantity" name="quantity" type="number" >
+    <br>
+    <button id="addBtn">Add</button>
+    <table id="cartTable">
+        <thead>
+            <tr>
+                <th>Item</th>
+                <th>Price</th>
+                <th>Quantity</th>
+            </tr>
+        </thead>
+        <tbody id="cartBody"></tbody>
+    </table>
+    <p id="total">Total Price</p>
+
+    <script src="app.js"></script>
+</body>
+</html>

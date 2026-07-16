@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Library</title>
+</head>
+<body>
+    <h1>Book Library</h1>
+    <label for="search">Search by Title</label>
+    <input id="search" type="text" placeholder="Type to search...">
+    <button id="searchBtn">Search Book</button>
+    <div id="resultsContainer"></div>
+    <br>
+    <label for="title">Title</label>
+    <input id="title" name="title" type="text" >
+    <br>
+    <label for="author">Author</label>
+    <input id="author" name="author" type="text" >
+    <br>
+    <label for="year">Year</label>
+    <input id="year" name="year" type="number" >
+    <br>
+    <button id="addBtn">Add Book</button>
+    
+    <table id="bookTable">
+        <thead>
+            <tr>
+                <th>Title</th>
+                <th>Author</th>
+                <th>Year</th>
+            </tr>
+        </thead>
+        <tbody id="bookBody"></tbody>
+    </table>
+
+    <script src="app.js"></script>
+</body>
+</html>
