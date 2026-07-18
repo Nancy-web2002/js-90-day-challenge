@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Budget Tracker</title>
+</head>
+<body>
+  <h1>Budget Tracker</h1>
+    <label for="description">Description</label>
+    <input id="description" name="description" type="text" >
+    <br>
+    <label for="amount">Amount</label>
+    <input id="amount" name="amount" type="number" >
+    <br>
+    <select id="category">
+      <option>Income</option>
+      <option>Expense</option>
+     </select>
+     <button id="addBtn">Sum</button>
+     <table id="transactionList">
+        <thead>
+            <tr>
+                <th>Description</th>
+                <th>Amount</th>
+                <th>Category</th>
+            </tr>
+        </thead>
+        <tbody id="transactionBody"></tbody>
+    </table>
+     
+     <div id="balanceDisplay"></div>
+
+     <script type="module" src="app.js"></script>
+</body>
+</html>

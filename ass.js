@@ -1,7 +1,7 @@
-async function testJoke() {
-    let response = await fetch("https://official-joke-api.appspot.com/random_joke");
+async function testMovieDetails() {
+    let response = await fetch("https://www.omdbapi.com/?apikey=8063da67&i=tt0372784");
     let data = await response.json();
     console.log(data);
   }
   
-  testJoke();
+  testMovieDetails();
