@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Employee Manager</title>
+</head>
+<body>
+    <h1>Employee Manager</h1>
+    <label for="name">Name</label>
+    <input id="name" type="text">
+    <br>
+    <label for="department">Department</label>
+    <input id="department" type="text">
+    <br>
+    <label for="salary">Salary</label>
+    <input id="salary" type="number">
+    <br>
+    <button id="addBtn">Add</button>
+    <br>
+    <label for="search">Find Employee</label>
+    <input id="search" type="text" placeholder="Search by name...">
+
+    <table id="employeeTable">
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Department</th>
+                <th>Salary($)</th>
+            </tr>
+        </thead>
+        <tbody id="employeeBody"></tbody>
+    </table>
+    <p id="stats"></p>
+
+    <script type="module" src="app.js"></script>
+</body>
+</html>

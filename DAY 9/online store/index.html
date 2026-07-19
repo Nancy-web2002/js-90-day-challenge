@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Store</title>
+</head>
+<body>
+    <h1>Online Store</h1>
+    <label for="productName">Product Name</label>
+    <input id="productName" type="text">
+    <br>
+    <label for="price">Price</label>
+    <input id="price" type="number">
+    <br>
+    <label for="productCategory">Category</label>
+    <input id="productCategory" type="text">
+    <br>
+    <button id="addBtn">Add Product</button>
+    <br>
+    <label for="search">Search Products</label>
+    <input id="search" type="text" placeholder="Search...">
+    <br>
+    <label for="filterCategory">Filter by Category</label>
+    <select id="filterCategory">
+        <option value="">All</option>
+    </select>
+    <br>
+    <button id="sortBtn">Sort by Price</button>
+
+    <table id="productTable">
+        <thead>
+            <tr>
+                <th>Product</th>
+                <th>Price</th>
+                <th>Category</th>
+                <th>Action</th>
+            </tr>
+        </thead>
+        <tbody id="productBody"></tbody>
+    </table>
+    <p id="stats"></p>
+
+    <script type="module" src="app.js"></script>
+</body>
+</html>
