@@ -77,6 +77,13 @@ Organizing code across files; template literals, ternaries, short-circuit evalua
 - Budget Tracker (income/expense tracking, monthly summary)
 - Movie Search App (OMDb API, two-step search → detail flow)
 
+### Day 9 — Advanced Array Methods & Higher-Order Functions
+
+Replacing manual loops with map(), filter(), find(), reduce(), sort(), some(), and every(), the tools used constantly in React, Node.js, and real-world job code.
+- Student Search App (search, pass/fail filter, average & highest score)
+- Employee Manager (search, total & highest salary)
+- Online Store (search, dynamic category filter, sortable price, remove items)
+
 ### Bonus - Portfolio Project Dashboard
 A dynamic, styled dashboard rendering all 25 projects from a single data file — the capstone piece tying every skill together.
 
@@ -95,7 +102,7 @@ No build tools or installs required, everything runs with plain HTML/CSS/JS.
 
 ##  Skills Demonstrated
 
-Functions & scope · Arrays & objects · DOM manipulation · Event-driven programming · Form validation with regex · localStorage persistence · Fetch API & async/await · Error handling · ES6 modules · Destructuring & spread/rest · Git version control
+Functions & scope · Arrays & objects · DOM manipulation · Event-driven programming · Form validation with regex · localStorage persistence · Fetch API & async/await · Error handling · ES6 modules · Destructuring & spread/rest ·  Advanced array methods (map, filter, find, reduce, sort, some, every) · Git version control
 
 ---
 
